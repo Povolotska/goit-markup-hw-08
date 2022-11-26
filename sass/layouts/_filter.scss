@@ -1,0 +1,18 @@
+.filter {
+    @include font(500, 16px, 1.6, 0.03em);
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.6px;
+    // letter-spacing: 0.03em;
+    font-family: "Roboto";
+    color: var(--title-color);
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter-container {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}

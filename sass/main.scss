@@ -1,0 +1,24 @@
+@import './base/reset.scss';
+@import "./base/common";
+
+@import './utils/placeholders';
+@import './utils/mixin';
+@import "./utils/vars";
+@import './utils/hidden';
+
+@import './components/conteiner';
+@import './components/modal';
+@import './components/button';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/filter';
+@import './layouts/gallery';
+@import './layouts/advantages';
+@import './layouts/join';
+@import './layouts/section-image';
+@import './layouts/team';
+@import './layouts/section-clients';
+@import './layouts/footer';
+@import './layouts/address';
+@import './layouts/send';
