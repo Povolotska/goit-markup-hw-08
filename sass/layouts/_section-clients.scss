@@ -16,12 +16,22 @@
 .clients-list {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .clients-item {
     width: calc((100% - 170px) / 6);
     height: 92px;
     color: #188ce8;
+    width: calc((100% - 30px) / 2);
+    
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 60px) / 3);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 150px) / 6);
+        }
 }
 
 .clients-link {
